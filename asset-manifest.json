@@ -1,0 +1,27 @@
+{
+  "files": {
+    "chunk-blinkmind.css": "/thivagar-manickam/python-mindmap/static/css/chunk-blinkmind.0c51329f.chunk.css",
+    "chunk-blinkmind.js": "/thivagar-manickam/python-mindmap/static/js/chunk-blinkmind.9a29a633.chunk.js",
+    "chunk-blinkmind.js.map": "/thivagar-manickam/python-mindmap/static/js/chunk-blinkmind.9a29a633.chunk.js.map",
+    "chunk-libs.css": "/thivagar-manickam/python-mindmap/static/css/chunk-libs.add42989.chunk.css",
+    "chunk-libs.js": "/thivagar-manickam/python-mindmap/static/js/chunk-libs.61c00e73.chunk.js",
+    "chunk-libs.js.map": "/thivagar-manickam/python-mindmap/static/js/chunk-libs.61c00e73.chunk.js.map",
+    "chunk-slate.js": "/thivagar-manickam/python-mindmap/static/js/chunk-slate.393dec83.chunk.js",
+    "chunk-slate.js.map": "/thivagar-manickam/python-mindmap/static/js/chunk-slate.393dec83.chunk.js.map",
+    "main.js": "/thivagar-manickam/python-mindmap/static/js/main.5cb82992.chunk.js",
+    "main.js.map": "/thivagar-manickam/python-mindmap/static/js/main.5cb82992.chunk.js.map",
+    "runtime~main.js": "/thivagar-manickam/python-mindmap/static/js/runtime~main.2e8ee811.js",
+    "runtime~main.js.map": "/thivagar-manickam/python-mindmap/static/js/runtime~main.2e8ee811.js.map",
+    "index.html": "/thivagar-manickam/python-mindmap/index.html",
+    "precache-manifest.db8681dba00279b8cfa277dfc9f7f773.js": "/thivagar-manickam/python-mindmap/precache-manifest.db8681dba00279b8cfa277dfc9f7f773.js",
+    "service-worker.js": "/thivagar-manickam/python-mindmap/service-worker.js",
+    "static/css/chunk-blinkmind.0c51329f.chunk.css.map": "/thivagar-manickam/python-mindmap/static/css/chunk-blinkmind.0c51329f.chunk.css.map",
+    "static/css/chunk-libs.add42989.chunk.css.map": "/thivagar-manickam/python-mindmap/static/css/chunk-libs.add42989.chunk.css.map",
+    "static/media/default.jpg": "/thivagar-manickam/python-mindmap/static/media/default.4f8c4983.jpg",
+    "static/media/iconfont.css": "/thivagar-manickam/python-mindmap/static/media/iconfont.c7f49803.eot",
+    "static/media/theme1.jpg": "/thivagar-manickam/python-mindmap/static/media/theme1.2f59f00b.jpg",
+    "static/media/theme2.jpg": "/thivagar-manickam/python-mindmap/static/media/theme2.b18193fb.jpg",
+    "static/media/theme3.jpg": "/thivagar-manickam/python-mindmap/static/media/theme3.61c97910.jpg",
+    "static/media/theme4.jpg": "/thivagar-manickam/python-mindmap/static/media/theme4.1e21408c.jpg"
+  }
+}
