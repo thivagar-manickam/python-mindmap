@@ -1,8 +1,8 @@
 {
   "files": {
     "chunk-blinkmind.css": "/thivagar-manickam/python-mindmap/static/css/chunk-blinkmind.0c51329f.chunk.css",
-    "chunk-blinkmind.js": "/thivagar-manickam/python-mindmap/static/js/chunk-blinkmind.9a29a633.chunk.js",
-    "chunk-blinkmind.js.map": "/thivagar-manickam/python-mindmap/static/js/chunk-blinkmind.9a29a633.chunk.js.map",
+    "chunk-blinkmind.js": "/thivagar-manickam/python-mindmap/static/js/chunk-blinkmind.122645d6.chunk.js",
+    "chunk-blinkmind.js.map": "/thivagar-manickam/python-mindmap/static/js/chunk-blinkmind.122645d6.chunk.js.map",
     "chunk-libs.css": "/thivagar-manickam/python-mindmap/static/css/chunk-libs.add42989.chunk.css",
     "chunk-libs.js": "/thivagar-manickam/python-mindmap/static/js/chunk-libs.61c00e73.chunk.js",
     "chunk-libs.js.map": "/thivagar-manickam/python-mindmap/static/js/chunk-libs.61c00e73.chunk.js.map",
@@ -13,7 +13,7 @@
     "runtime~main.js": "/thivagar-manickam/python-mindmap/static/js/runtime~main.2e8ee811.js",
     "runtime~main.js.map": "/thivagar-manickam/python-mindmap/static/js/runtime~main.2e8ee811.js.map",
     "index.html": "/thivagar-manickam/python-mindmap/index.html",
-    "precache-manifest.db8681dba00279b8cfa277dfc9f7f773.js": "/thivagar-manickam/python-mindmap/precache-manifest.db8681dba00279b8cfa277dfc9f7f773.js",
+    "precache-manifest.c861abc0b8b45fd2793c899e4457ad32.js": "/thivagar-manickam/python-mindmap/precache-manifest.c861abc0b8b45fd2793c899e4457ad32.js",
     "service-worker.js": "/thivagar-manickam/python-mindmap/service-worker.js",
     "static/css/chunk-blinkmind.0c51329f.chunk.css.map": "/thivagar-manickam/python-mindmap/static/css/chunk-blinkmind.0c51329f.chunk.css.map",
     "static/css/chunk-libs.add42989.chunk.css.map": "/thivagar-manickam/python-mindmap/static/css/chunk-libs.add42989.chunk.css.map",
