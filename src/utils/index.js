@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "ea454125-0bd9-48f2-8cb7-663f71d23280",
+    "focusKey": "61b38167-95e0-4927-abff-2726838aab11",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -19,17 +19,396 @@ export function generateSimpleModel() {
     },
     "topics": [
       {
-        "key": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-        "parentKey": null,
+        "key": "0fe2c952-32f0-4158-be4e-41f167986ed4",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Logical Operator"
+          }
+        ]
+      },
+      {
+        "key": "9fae9162-23b2-4213-a107-185457281cbf",
+        "parentKey": "c397fccb-1761-48ae-9051-d1b10926101f",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "insert/append"
+          }
+        ]
+      },
+      {
+        "key": "009985f8-1429-48fc-a591-e60ab6a11475",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Slicing"
+          }
+        ]
+      },
+      {
+        "key": "5867fc05-9be3-48c5-a662-be136244fcb1",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
         "subKeys": [
-          "b7f00b7f-ee66-4b84-80f3-9f181d251fae"
+          "7b44ff55-e4ec-4aea-b59c-0ceb757fafde",
+          "d3bb1eb4-328c-4c64-a773-0cab8cdb095c"
         ],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "Python"
+            "data": "Loops"
+          }
+        ]
+      },
+      {
+        "key": "b6d15f09-cca9-4349-8940-11812fd16a0b",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "729ac350-b0f2-4c62-9f04-0065fbcf0b96",
+          "231eb190-f016-4e64-b2fe-63a7c887b942",
+          "333ed114-73e0-4a33-a03c-06cb94df3e3d",
+          "cb8f9f23-1207-41bc-97d1-f15064f0eb76"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "File Handling"
+          }
+        ]
+      },
+      {
+        "key": "448e595d-b770-48be-92fd-c459e581ccdf",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Sequence"
+          }
+        ]
+      },
+      {
+        "key": "56c130f3-9ef8-4fa8-8676-03f90cb50e8b",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "capitalize"
+          }
+        ]
+      },
+      {
+        "key": "7f17258a-e613-4bec-ac62-7820861d29c2",
+        "parentKey": "b4bd5a6e-b0aa-482e-ab84-8ea642e1e7bd",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Constructors\nand\nDestructors"
+          }
+        ]
+      },
+      {
+        "key": "4c9304ba-a37e-4b09-a213-5b0e2242a664",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "swapcase"
+          }
+        ]
+      },
+      {
+        "key": "d4382eda-4c3f-4ed1-a0f7-a763dc224cbc",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Set"
+          }
+        ]
+      },
+      {
+        "key": "6356e49e-9c9c-4433-9825-7c0a73608cac",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "45cca340-9600-45c5-8dbf-5e0de52666d2",
+          "5d6180cd-f5f0-4c34-9c23-bb4538c9ab8d",
+          "be2c2ed0-4bff-4a83-bc48-fa4ee50353c9",
+          "59a99b16-4a96-4aca-886f-2656fcd6b921"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Exceptions and \nException handling"
+          }
+        ]
+      },
+      {
+        "key": "317fc5a2-03b7-4067-99da-81300930304f",
+        "parentKey": "a3748e6a-c524-4dd6-9236-0d01df71924f",
+        "subKeys": [
+          "b4bd5a6e-b0aa-482e-ab84-8ea642e1e7bd",
+          "fd23272c-cd7d-42bc-b1ee-4c179805026b"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Object Oriented \nProgramming"
+          }
+        ]
+      },
+      {
+        "key": "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "f27c0424-b690-460f-9778-3edf3fc11578",
+          "e3a76b23-03a2-4d9a-b083-eeec3aac7f6a",
+          "3d564825-425c-4760-86e6-0597f883d77a",
+          "4fa61e9e-c850-4cb1-9254-c8375bc5fea8"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Scopes &\nClosures"
+          }
+        ]
+      },
+      {
+        "key": "e4abc4cc-6238-4d0b-92f4-56b940300d48",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "append"
+          }
+        ]
+      },
+      {
+        "key": "e87251b9-1da4-4270-9b34-05cdfe2822c4",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Assignment Operator"
+          }
+        ]
+      },
+      {
+        "key": "4f9282fa-387e-40e0-8c45-2fa707f55f8c",
+        "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "elif statement"
+          }
+        ]
+      },
+      {
+        "key": "2f6d3be1-481f-424e-86b6-cf9cd30aabc8",
+        "parentKey": "59a99b16-4a96-4aca-886f-2656fcd6b921",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Syntax error"
+          }
+        ]
+      },
+      {
+        "key": "eb9702d4-e132-49ee-b988-7887b8abf3f7",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "copy"
+          }
+        ]
+      },
+      {
+        "key": "50a82345-69b4-4a18-9daa-9d77577edd02",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "pop"
+          }
+        ]
+      },
+      {
+        "key": "57c8e398-16ee-494a-ab2e-2980c38c102a",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "upper\nand\nlower"
+          }
+        ]
+      },
+      {
+        "key": "59a99b16-4a96-4aca-886f-2656fcd6b921",
+        "parentKey": "6356e49e-9c9c-4433-9825-7c0a73608cac",
+        "subKeys": [
+          "50a3e25c-598f-4c93-904e-18a0683bd03e",
+          "2f6d3be1-481f-424e-86b6-cf9cd30aabc8",
+          "918b10c8-7134-4a75-b7d2-6199257be2ec"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Errors"
+          }
+        ]
+      },
+      {
+        "key": "b0afcd07-f107-4e27-a29b-6eb8e1c0f92a",
+        "parentKey": "c397fccb-1761-48ae-9051-d1b10926101f",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "update"
+          }
+        ]
+      },
+      {
+        "key": "3f0913dc-5f45-4f1e-8d60-f11edaf0c965",
+        "parentKey": "d059c0ec-c3b0-47ce-82ba-838cd2f7eadb",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Generators"
+          }
+        ]
+      },
+      {
+        "key": "7ee4332b-6ccd-4056-84e8-423176495d8b",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+          "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+          "c397fccb-1761-48ae-9051-d1b10926101f",
+          "0423f379-b1b7-4744-84ab-62e9c5cc7ae9"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Data\nManipulation"
+          }
+        ]
+      },
+      {
+        "key": "3570aa82-1056-4394-8d4d-786529f53550",
+        "parentKey": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "intersection"
+          }
+        ]
+      },
+      {
+        "key": "f27c0424-b690-460f-9778-3edf3fc11578",
+        "parentKey": "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Function\nScope"
+          }
+        ]
+      },
+      {
+        "key": "8269c50f-7768-42d0-b1f8-c28fd94f18b2",
+        "parentKey": "d059c0ec-c3b0-47ce-82ba-838cd2f7eadb",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Recursion"
+          }
+        ]
+      },
+      {
+        "key": "c3bd767e-dca7-4e52-bc73-5d8f0fb1e1ec",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Identity Operator"
           }
         ]
       },
@@ -37,8 +416,13 @@ export function generateSimpleModel() {
         "key": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
         "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
         "subKeys": [
-          "0b62f75a-faac-4a9d-89d5-ed32144afee5",
-          "1c216a10-7c3d-44d7-ac8e-ed08629a4ef2"
+          "39c84334-c6b2-4d23-8afc-4706377804cf",
+          "8a707957-99ea-437c-ba2f-6d1d23ac6e88",
+          "448e595d-b770-48be-92fd-c459e581ccdf",
+          "f5c3c049-5eb9-4b00-892c-4eaea31aa051",
+          "d4382eda-4c3f-4ed1-a0f7-a763dc224cbc",
+          "a434cb36-9bd3-4e06-bdca-5e587b112afa",
+          "9af33793-4841-4ef4-93b2-bbe931da1034"
         ],
         "collapse": false,
         "style": null,
@@ -50,75 +434,950 @@ export function generateSimpleModel() {
         ]
       },
       {
-        "key": "0b62f75a-faac-4a9d-89d5-ed32144afee5",
-        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "key": "3d564825-425c-4760-86e6-0597f883d77a",
+        "parentKey": "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
         "subKeys": [],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "Text"
-          },
-          {
-            "type": "DESC",
-            "data": "Text data type refers to the string representation of data. \n\n A string can be defined using either the **' ' or \" \". **\n\n```python\nname = \"Thivagar\"\n\nname = 'Thivagar'\n\n```\n"
+            "data": "Local \nScope"
           }
         ]
       },
       {
-        "key": "1c216a10-7c3d-44d7-ac8e-ed08629a4ef2",
-        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "key": "d059c0ec-c3b0-47ce-82ba-838cd2f7eadb",
+        "parentKey": "a3748e6a-c524-4dd6-9236-0d01df71924f",
         "subKeys": [
-          "6b5d993d-c379-4545-bb0c-fc481e757928",
-          "48882375-5cce-4d7e-aa54-1a437a4f5724",
-          "ea454125-0bd9-48f2-8cb7-663f71d23280"
+          "da27a4e8-11ed-4498-b7a7-39b07effe954",
+          "8269c50f-7768-42d0-b1f8-c28fd94f18b2",
+          "3f0913dc-5f45-4f1e-8d60-f11edaf0c965"
         ],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "Number"
+            "data": "Functional\nProgramming"
           }
         ]
       },
       {
-        "key": "6b5d993d-c379-4545-bb0c-fc481e757928",
-        "parentKey": "1c216a10-7c3d-44d7-ac8e-ed08629a4ef2",
+        "key": "f5c3c049-5eb9-4b00-892c-4eaea31aa051",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
         "subKeys": [],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "integer"
+            "data": "Mapping"
           }
         ]
       },
       {
-        "key": "48882375-5cce-4d7e-aa54-1a437a4f5724",
-        "parentKey": "1c216a10-7c3d-44d7-ac8e-ed08629a4ef2",
+        "key": "231eb190-f016-4e64-b2fe-63a7c887b942",
+        "parentKey": "b6d15f09-cca9-4349-8940-11812fd16a0b",
         "subKeys": [],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "float"
+            "data": "File Read"
           }
         ]
       },
       {
-        "key": "ea454125-0bd9-48f2-8cb7-663f71d23280",
-        "parentKey": "1c216a10-7c3d-44d7-ac8e-ed08629a4ef2",
+        "key": "9cdc6fe2-8b6c-4181-8352-ac0642705431",
+        "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
         "subKeys": [],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "complex"
+            "data": "continue"
+          }
+        ]
+      },
+      {
+        "key": "95364fba-fad5-42e6-8aba-48eddfd9c85d",
+        "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "If statment"
+          }
+        ]
+      },
+      {
+        "key": "7d5e4c2a-93af-4d0f-b643-0ddbd41316e6",
+        "parentKey": "fd23272c-cd7d-42bc-b1ee-4c179805026b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Abstraction"
+          }
+        ]
+      },
+      {
+        "key": "4fa61e9e-c850-4cb1-9254-c8375bc5fea8",
+        "parentKey": "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Global\nScope"
+          }
+        ]
+      },
+      {
+        "key": "0d294b23-1f70-4750-bc01-2f43478a49c2",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "95364fba-fad5-42e6-8aba-48eddfd9c85d",
+          "92d73690-42f0-46fb-9ed6-01b11dd5b6c7",
+          "4f9282fa-387e-40e0-8c45-2fa707f55f8c",
+          "88e71315-84d5-424c-9d0d-debc96be9275",
+          "9cdc6fe2-8b6c-4181-8352-ac0642705431",
+          "f2e6836b-f3a3-4b57-9539-ceafb2b90d78"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Control/Condition\nStatements"
+          }
+        ]
+      },
+      {
+        "key": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "parentKey": "7ee4332b-6ccd-4056-84e8-423176495d8b",
+        "subKeys": [
+          "e4abc4cc-6238-4d0b-92f4-56b940300d48",
+          "d4f73f1a-1ced-4832-9e06-3c5ced5029d5",
+          "64d71625-7236-47d6-965f-74bf03c600ba",
+          "50a82345-69b4-4a18-9daa-9d77577edd02",
+          "5ce1b8c5-a91b-422d-afbf-fe718ed99ce8",
+          "f26977cb-9329-42e9-ad18-0bdef2d1458b",
+          "eb9702d4-e132-49ee-b988-7887b8abf3f7"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "List"
+          }
+        ]
+      },
+      {
+        "key": "f50dce09-3768-4921-95e9-36d3cd209833",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "split"
+          }
+        ]
+      },
+      {
+        "key": "51771cee-0f63-4963-98b4-83ce9cf1500c",
+        "parentKey": "9b11cbc1-7555-4fef-8ac1-9f4c29087b8e",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Funtion/Definition"
+          }
+        ]
+      },
+      {
+        "key": "f26977cb-9329-42e9-ad18-0bdef2d1458b",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "clear"
+          }
+        ]
+      },
+      {
+        "key": "7b44ff55-e4ec-4aea-b59c-0ceb757fafde",
+        "parentKey": "5867fc05-9be3-48c5-a662-be136244fcb1",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "for loop"
+          }
+        ]
+      },
+      {
+        "key": "dac0c9d3-bc2a-405c-8c00-04eadc183804",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Comparison Operator"
+          }
+        ]
+      },
+      {
+        "key": "113c36f1-6113-420e-95b2-6538d85591d9",
+        "parentKey": "c397fccb-1761-48ae-9051-d1b10926101f",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "pop"
+          }
+        ]
+      },
+      {
+        "key": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "e007ccab-6e73-43fc-9133-f41f91cad209",
+          "dac0c9d3-bc2a-405c-8c00-04eadc183804",
+          "0fe2c952-32f0-4158-be4e-41f167986ed4",
+          "eac69c95-909c-485f-a4d0-ab5d051fb62f",
+          "e87251b9-1da4-4270-9b34-05cdfe2822c4",
+          "c3bd767e-dca7-4e52-bc73-5d8f0fb1e1ec",
+          "440faeb4-6fb6-42c9-bb9d-b3fa62303db8",
+          "a2f701f3-257e-483d-8a6b-5b74ac1e48d0"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Operators"
+          }
+        ]
+      },
+      {
+        "key": "333ed114-73e0-4a33-a03c-06cb94df3e3d",
+        "parentKey": "b6d15f09-cca9-4349-8940-11812fd16a0b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "File Write"
+          }
+        ]
+      },
+      {
+        "key": "ec791990-e208-468d-a3ed-49b6db5a829d",
+        "parentKey": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "add"
+          }
+        ]
+      },
+      {
+        "key": "62f8baec-2339-4c0b-b046-6faf3dda11a8",
+        "parentKey": "9b11cbc1-7555-4fef-8ac1-9f4c29087b8e",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Decorators"
+          }
+        ]
+      },
+      {
+        "key": "a2f701f3-257e-483d-8a6b-5b74ac1e48d0",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Ternary Operator"
+          }
+        ]
+      },
+      {
+        "key": "6692da9c-cbcb-4f08-8ff5-1aabf9851dfb",
+        "parentKey": "fd23272c-cd7d-42bc-b1ee-4c179805026b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Inheritance"
+          }
+        ]
+      },
+      {
+        "key": "83b824cd-4b63-48d8-91ac-c8f17663b1da",
+        "parentKey": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "pop"
+          }
+        ]
+      },
+      {
+        "key": "cb8f9f23-1207-41bc-97d1-f15064f0eb76",
+        "parentKey": "b6d15f09-cca9-4349-8940-11812fd16a0b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "File Append"
+          }
+        ]
+      },
+      {
+        "key": "da27a4e8-11ed-4498-b7a7-39b07effe954",
+        "parentKey": "d059c0ec-c3b0-47ce-82ba-838cd2f7eadb",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "First class \nfunctions"
+          }
+        ]
+      },
+      {
+        "key": "015d562d-ef8b-4d18-a422-897aef583e0e",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "replace"
+          }
+        ]
+      },
+      {
+        "key": "deb9533b-4bcd-4e6e-98f8-3f361c8e95fb",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "title"
+          }
+        ]
+      },
+      {
+        "key": "88e71315-84d5-424c-9d0d-debc96be9275",
+        "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "break"
+          }
+        ]
+      },
+      {
+        "key": "f5722c80-7f2a-4919-8958-b69bcfc16d70",
+        "parentKey": "c397fccb-1761-48ae-9051-d1b10926101f",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "setdefault"
+          }
+        ]
+      },
+      {
+        "key": "5fd50f3b-4100-43b6-aeef-6d8e7394428d",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "join"
+          }
+        ]
+      },
+      {
+        "key": "e3a76b23-03a2-4d9a-b083-eeec3aac7f6a",
+        "parentKey": "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Closures"
+          }
+        ]
+      },
+      {
+        "key": "d4f73f1a-1ced-4832-9e06-3c5ced5029d5",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "insert"
+          }
+        ]
+      },
+      {
+        "key": "8a707957-99ea-437c-ba2f-6d1d23ac6e88",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Text/String"
+          }
+        ]
+      },
+      {
+        "key": "a3748e6a-c524-4dd6-9236-0d01df71924f",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "d059c0ec-c3b0-47ce-82ba-838cd2f7eadb",
+          "317fc5a2-03b7-4067-99da-81300930304f"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Programming\nParadigms"
+          }
+        ]
+      },
+      {
+        "key": "30253742-3440-4ecc-a490-2036cedc8d50",
+        "parentKey": "fd23272c-cd7d-42bc-b1ee-4c179805026b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Polymorphism"
+          }
+        ]
+      },
+      {
+        "key": "61b38167-95e0-4927-abff-2726838aab11",
+        "parentKey": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "symmetric_difference"
+          }
+        ]
+      },
+      {
+        "key": "9af33793-4841-4ef4-93b2-bbe931da1034",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Binary"
+          }
+        ]
+      },
+      {
+        "key": "f2e6836b-f3a3-4b57-9539-ceafb2b90d78",
+        "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "pass"
+          }
+        ]
+      },
+      {
+        "key": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "parentKey": "7ee4332b-6ccd-4056-84e8-423176495d8b",
+        "subKeys": [
+          "ec791990-e208-468d-a3ed-49b6db5a829d",
+          "83b824cd-4b63-48d8-91ac-c8f17663b1da",
+          "d33b5f19-a2ee-446e-89d2-888424a7cd43",
+          "48e11f8b-eba6-4893-a20f-67768c5a997d",
+          "3570aa82-1056-4394-8d4d-786529f53550",
+          "61b38167-95e0-4927-abff-2726838aab11"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Set"
+          }
+        ]
+      },
+      {
+        "key": "9b11cbc1-7555-4fef-8ac1-9f4c29087b8e",
+        "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "subKeys": [
+          "51771cee-0f63-4963-98b4-83ce9cf1500c",
+          "5020c7bb-16ff-4e56-af25-132392e43be7",
+          "1af5575f-fde9-4f0c-8b08-7946b1378eab",
+          "62f8baec-2339-4c0b-b046-6faf3dda11a8"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Functions"
+          }
+        ]
+      },
+      {
+        "key": "918b10c8-7134-4a75-b7d2-6199257be2ec",
+        "parentKey": "59a99b16-4a96-4aca-886f-2656fcd6b921",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Built-in error"
+          }
+        ]
+      },
+      {
+        "key": "39c84334-c6b2-4d23-8afc-4706377804cf",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Numeric"
+          }
+        ]
+      },
+      {
+        "key": "5ce1b8c5-a91b-422d-afbf-fe718ed99ce8",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "remove"
+          }
+        ]
+      },
+      {
+        "key": "c97307ee-9bd1-43b6-9b89-77493dfde29d",
+        "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "find"
+          }
+        ]
+      },
+      {
+        "key": "64d71625-7236-47d6-965f-74bf03c600ba",
+        "parentKey": "4b4c7439-b41e-472e-b44c-9abf85b53d5d",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "extend"
+          }
+        ]
+      },
+      {
+        "key": "1af5575f-fde9-4f0c-8b08-7946b1378eab",
+        "parentKey": "9b11cbc1-7555-4fef-8ac1-9f4c29087b8e",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Lambda"
+          }
+        ]
+      },
+      {
+        "key": "48e11f8b-eba6-4893-a20f-67768c5a997d",
+        "parentKey": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "union"
+          }
+        ]
+      },
+      {
+        "key": "a2c951b8-8249-4fad-b559-150b6050395d",
+        "parentKey": "b4bd5a6e-b0aa-482e-ab84-8ea642e1e7bd",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Classes, Objects\nand Methods"
+          }
+        ]
+      },
+      {
+        "key": "5d6180cd-f5f0-4c34-9c23-bb4538c9ab8d",
+        "parentKey": "6356e49e-9c9c-4433-9825-7c0a73608cac",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "finally"
+          }
+        ]
+      },
+      {
+        "key": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
+        "parentKey": "7ee4332b-6ccd-4056-84e8-423176495d8b",
+        "subKeys": [
+          "009985f8-1429-48fc-a591-e60ab6a11475",
+          "015d562d-ef8b-4d18-a422-897aef583e0e",
+          "f50dce09-3768-4921-95e9-36d3cd209833",
+          "5fd50f3b-4100-43b6-aeef-6d8e7394428d",
+          "c97307ee-9bd1-43b6-9b89-77493dfde29d",
+          "57c8e398-16ee-494a-ab2e-2980c38c102a",
+          "56c130f3-9ef8-4fa8-8676-03f90cb50e8b",
+          "deb9533b-4bcd-4e6e-98f8-3f361c8e95fb",
+          "4c9304ba-a37e-4b09-a213-5b0e2242a664"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "String"
+          }
+        ]
+      },
+      {
+        "key": "d33b5f19-a2ee-446e-89d2-888424a7cd43",
+        "parentKey": "0423f379-b1b7-4744-84ab-62e9c5cc7ae9",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "remove"
+          }
+        ]
+      },
+      {
+        "key": "d3bb1eb4-328c-4c64-a773-0cab8cdb095c",
+        "parentKey": "5867fc05-9be3-48c5-a662-be136244fcb1",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "while loop"
+          }
+        ]
+      },
+      {
+        "key": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
+        "parentKey": null,
+        "subKeys": [
+          "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+          "676ebb64-f661-4563-93cf-d82a9512524a",
+          "0d294b23-1f70-4750-bc01-2f43478a49c2",
+          "5867fc05-9be3-48c5-a662-be136244fcb1",
+          "6356e49e-9c9c-4433-9825-7c0a73608cac",
+          "a3748e6a-c524-4dd6-9236-0d01df71924f",
+          "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
+          "9b11cbc1-7555-4fef-8ac1-9f4c29087b8e",
+          "7ee4332b-6ccd-4056-84e8-423176495d8b",
+          "b6d15f09-cca9-4349-8940-11812fd16a0b"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Python"
+          }
+        ]
+      },
+      {
+        "key": "92d73690-42f0-46fb-9ed6-01b11dd5b6c7",
+        "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "If else statement"
+          }
+        ]
+      },
+      {
+        "key": "b4bd5a6e-b0aa-482e-ab84-8ea642e1e7bd",
+        "parentKey": "317fc5a2-03b7-4067-99da-81300930304f",
+        "subKeys": [
+          "a2c951b8-8249-4fad-b559-150b6050395d",
+          "7f17258a-e613-4bec-ac62-7820861d29c2"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Building \nBlocks"
+          }
+        ]
+      },
+      {
+        "key": "729ac350-b0f2-4c62-9f04-0065fbcf0b96",
+        "parentKey": "b6d15f09-cca9-4349-8940-11812fd16a0b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "File Open"
+          }
+        ]
+      },
+      {
+        "key": "c397fccb-1761-48ae-9051-d1b10926101f",
+        "parentKey": "7ee4332b-6ccd-4056-84e8-423176495d8b",
+        "subKeys": [
+          "9fae9162-23b2-4213-a107-185457281cbf",
+          "113c36f1-6113-420e-95b2-6538d85591d9",
+          "f5722c80-7f2a-4919-8958-b69bcfc16d70",
+          "b0afcd07-f107-4e27-a29b-6eb8e1c0f92a"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Dict"
+          }
+        ]
+      },
+      {
+        "key": "be2c2ed0-4bff-4a83-bc48-fa4ee50353c9",
+        "parentKey": "6356e49e-9c9c-4433-9825-7c0a73608cac",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "raise"
+          }
+        ]
+      },
+      {
+        "key": "45cca340-9600-45c5-8dbf-5e0de52666d2",
+        "parentKey": "6356e49e-9c9c-4433-9825-7c0a73608cac",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "try/except"
+          }
+        ]
+      },
+      {
+        "key": "e007ccab-6e73-43fc-9133-f41f91cad209",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Arithmetic Operator"
+          }
+        ]
+      },
+      {
+        "key": "eac69c95-909c-485f-a4d0-ab5d051fb62f",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Bitwise Operator"
+          }
+        ]
+      },
+      {
+        "key": "50a3e25c-598f-4c93-904e-18a0683bd03e",
+        "parentKey": "59a99b16-4a96-4aca-886f-2656fcd6b921",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Logical error"
+          }
+        ]
+      },
+      {
+        "key": "440faeb4-6fb6-42c9-bb9d-b3fa62303db8",
+        "parentKey": "676ebb64-f661-4563-93cf-d82a9512524a",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Membership Operator"
+          }
+        ]
+      },
+      {
+        "key": "a434cb36-9bd3-4e06-bdca-5e587b112afa",
+        "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Boolean"
+          }
+        ]
+      },
+      {
+        "key": "fd23272c-cd7d-42bc-b1ee-4c179805026b",
+        "parentKey": "317fc5a2-03b7-4067-99da-81300930304f",
+        "subKeys": [
+          "6692da9c-cbcb-4f08-8ff5-1aabf9851dfb",
+          "30253742-3440-4ecc-a490-2036cedc8d50",
+          "49a58005-96d3-4c75-a383-e0de37e325a4",
+          "7d5e4c2a-93af-4d0f-b643-0ddbd41316e6"
+        ],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Pillars"
+          }
+        ]
+      },
+      {
+        "key": "49a58005-96d3-4c75-a383-e0de37e325a4",
+        "parentKey": "fd23272c-cd7d-42bc-b1ee-4c179805026b",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Encapsulation"
+          }
+        ]
+      },
+      {
+        "key": "5020c7bb-16ff-4e56-af25-132392e43be7",
+        "parentKey": "9b11cbc1-7555-4fef-8ac1-9f4c29087b8e",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "Rules"
           }
         ]
       }
