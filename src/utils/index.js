@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "61b38167-95e0-4927-abff-2726838aab11",
+    "focusKey": "51f8afb4-66b2-4d3d-9d20-914771a2147e",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -118,6 +118,23 @@ export function generateSimpleModel() {
         ]
       },
       {
+        "key": "06244fb7-257f-4eef-b7f4-2d180e7ad46d",
+        "parentKey": "39c84334-c6b2-4d23-8afc-4706377804cf",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "float"
+          },
+          {
+            "type": "DESC",
+            "data": "Float are numbers which has decimal values. It can contain positive or negative numbers.\n\n### Defining Floating point variable\n\n```python\na = 10.32 # Directly assigning the value to a variable\nb = float(\"23\") # Using the float class to assign floating value\nc = float(100.32)\nd = float(\"22.32\") # Converting the string floating value\n\nprint(a) # will return 10.32\nprint(b) # will return 23.0\nprint(c) # will return 100.32\nprint(d) # will return 22.32\n\n```\n\nThe float\\(\\) function will try to convert the given string or number to a floating point value.\n\n### Identifying the type\n\n```python\nprint(type(a)) # will return <class 'float'>\nprint(isinstance(a, float)) # Will return True if 'a' is of type float\n\n```\n"
+          }
+        ]
+      },
+      {
         "key": "7f17258a-e613-4bec-ac62-7820861d29c2",
         "parentKey": "b4bd5a6e-b0aa-482e-ab84-8ea642e1e7bd",
         "subKeys": [],
@@ -218,6 +235,23 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "append"
+          }
+        ]
+      },
+      {
+        "key": "51f8afb4-66b2-4d3d-9d20-914771a2147e",
+        "parentKey": "39c84334-c6b2-4d23-8afc-4706377804cf",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "complex"
+          },
+          {
+            "type": "DESC",
+            "data": "Complex numbers are represented using the **\\(real part\\) \\+ \\(imaginary part\\) \\* j**\nThe real and imaginary part can take both integer and floating point numbers.\n\n### Defining Complex number variable\n\n```python\na = 23 + 3j\nb = 21.32 + 3.1j\nc = complex(real=30, imag=2)\nd = complex(real=\"23\")\nprint(a) # will return (23+3j)\nprint(b) # will return (21.32+3.1j)\nprint(c) # will return (30+2j)\nprint(d) # will return (23+0j)\n\n```\n\n### Identifying the type\n\n```python\nprint(type(a)) # will return <class 'complex'>\nprint(isinstance(a, complex)) # Will return True if 'a' is of type complex\n\n```\n\n### Exception while defining complex number\n\n1. Only the character ' j ' can be used to represent the imaginary part. Using other characters will throw an invalid syntax error.\n\n```python\nd = 23 + 3i # will throw an invalid syntax error\n\n```\n 2\\. When using the complex\\(\\) definition, if the real param is passed as a string we cannot pass the\n     imag param. It will throw a type error.\n```python\nd = complex(real=\"23\", imag=2) # will throw a type error\n\n```\n"
           }
         ]
       },
@@ -839,6 +873,23 @@ export function generateSimpleModel() {
         ]
       },
       {
+        "key": "bf5e4dcc-41e2-45e3-9b20-abf2d1cfced7",
+        "parentKey": "39c84334-c6b2-4d23-8afc-4706377804cf",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "integer"
+          },
+          {
+            "type": "DESC",
+            "data": "Integers are whole numbers with no decimal points or fractional parts. It can contain positive or negative numbers.\nThere is no limit in how long a number can be in Python.\n\n### Defining Integer variable\n\n```python\na = 10 # Directly assigning the value to a variable\nb = int(\"23\") # Using the int class to assign integer value\nc = int(100.32) #This will omit the decimal value and store 100 in 'c'\nd = int('0b100', base=0) # Converting the string to base 0 number\n\nprint(a) # will return 10\nprint(b) # will return 23. The string gets converted to base 10 number\nprint(c) # will return 100\nprint(d) # will return 4 which is equaivalent of '0b100' in base 0\n\n```\n\nWhen using the int\\(\\) function, if the base param is mentioned, then the we must pass the number\nas a string. By default the base param value is 10.\n\n### Identifying the type\n\n```python\nprint(type(a)) # will return 'int'\nprint(isinstance(a, int)) # Will return True if 'a' is of type int\n\n```\n"
+          }
+        ]
+      },
+      {
         "key": "5fd50f3b-4100-43b6-aeef-6d8e7394428d",
         "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
         "subKeys": [],
@@ -1012,13 +1063,21 @@ export function generateSimpleModel() {
       {
         "key": "39c84334-c6b2-4d23-8afc-4706377804cf",
         "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
-        "subKeys": [],
+        "subKeys": [
+          "bf5e4dcc-41e2-45e3-9b20-abf2d1cfced7",
+          "06244fb7-257f-4eef-b7f4-2d180e7ad46d",
+          "51f8afb4-66b2-4d3d-9d20-914771a2147e"
+        ],
         "collapse": false,
         "style": null,
         "blocks": [
           {
             "type": "CONTENT",
             "data": "Numeric"
+          },
+          {
+            "type": "DESC",
+            "data": "The Numeric type in python includes the below three types:\n1. Integer\n1. Floating point numbers\n1. Complex numbers\n\n"
           }
         ]
       },
