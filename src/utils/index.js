@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "51f8afb4-66b2-4d3d-9d20-914771a2147e",
+    "focusKey": "8a707957-99ea-437c-ba2f-6d1d23ac6e88",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -28,6 +28,19 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "Logical Operator"
+          }
+        ]
+      },
+      {
+        "key": "965e0a40-6650-4279-9d1e-42dca9937c27",
+        "parentKey": "448e595d-b770-48be-92fd-c459e581ccdf",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "tuple"
           }
         ]
       },
@@ -94,7 +107,11 @@ export function generateSimpleModel() {
       {
         "key": "448e595d-b770-48be-92fd-c459e581ccdf",
         "parentKey": "b7f00b7f-ee66-4b84-80f3-9f181d251fae",
-        "subKeys": [],
+        "subKeys": [
+          "464cc83d-84fe-47d4-a2e8-064b5e3bcc15",
+          "965e0a40-6650-4279-9d1e-42dca9937c27",
+          "917b5cae-abc7-4e39-855e-76d8f00cacd9"
+        ],
         "collapse": false,
         "style": null,
         "blocks": [
@@ -131,6 +148,19 @@ export function generateSimpleModel() {
           {
             "type": "DESC",
             "data": "Float are numbers which has decimal values. It can contain positive or negative numbers.\n\n### Defining Floating point variable\n\n```python\na = 10.32 # Directly assigning the value to a variable\nb = float(\"23\") # Using the float class to assign floating value\nc = float(100.32)\nd = float(\"22.32\") # Converting the string floating value\n\nprint(a) # will return 10.32\nprint(b) # will return 23.0\nprint(c) # will return 100.32\nprint(d) # will return 22.32\n\n```\n\nThe float\\(\\) function will try to convert the given string or number to a floating point value.\n\n### Identifying the type\n\n```python\nprint(type(a)) # will return <class 'float'>\nprint(isinstance(a, float)) # Will return True if 'a' is of type float\n\n```\n"
+          }
+        ]
+      },
+      {
+        "key": "464cc83d-84fe-47d4-a2e8-064b5e3bcc15",
+        "parentKey": "448e595d-b770-48be-92fd-c459e581ccdf",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "list"
           }
         ]
       },
@@ -808,6 +838,19 @@ export function generateSimpleModel() {
         ]
       },
       {
+        "key": "917b5cae-abc7-4e39-855e-76d8f00cacd9",
+        "parentKey": "448e595d-b770-48be-92fd-c459e581ccdf",
+        "subKeys": [],
+        "collapse": false,
+        "style": null,
+        "blocks": [
+          {
+            "type": "CONTENT",
+            "data": "range"
+          }
+        ]
+      },
+      {
         "key": "da27a4e8-11ed-4498-b7a7-39b07effe954",
         "parentKey": "d059c0ec-c3b0-47ce-82ba-838cd2f7eadb",
         "subKeys": [],
@@ -938,6 +981,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "Text/String"
+          },
+          {
+            "type": "DESC",
+            "data": "**Strings** are arrays of bytes representing Unicode characters.\n\nA string is a collection of one or more characters put in a single quote, double\\-quote or triple quote.  In python there is no character data type, a character is a string of length one. It is represented by str class.\n\n### Defining a String\n\n```python\na = 'ryan'\nb = \"alice\"\nprint(a) # will print 'ryan'\nprint(b) # will print \"alice\"\n\n```\n\nIn order to either use the double\\-quote or single quote within the string, you either use the alternative\nquote for enclosing the entire string or use the escape sequence.\n```python\nc = \"Ryan's bestfriend is David\" # Using the \"\" as enclosing quotes\nd = 'Ryan\\'s bestfriend is David'# Using \\' to print ' in the string\nprint(c) # Ryan's bestfriend is David\npring(d) # Ryan's bestfriend is David\n\n```\n\n### Doc String\n\nThe single quote and double strings will allow us to define a single line string only until we use \\\\ or \\\\n\\\\ to break it down to multiple lines. \nTo ease this problem, we have something called as Doc String or the triple quote in python.\nThe triple quote will preserve all the space and escape sequences without explicitly mentioning them.\nWe can either use three singe quotes or three double quotes to convert it into a doc string.\n\n```python\na = 'This \\n\\\nis a \\n\\\nnice book'\nprint(a) # here we have used the \\n\\ to split the lines\n\nb = '''This\nis a \nnice book'''\nprint(b) # The Doc string will preserve all the spaces\n\n#Output for both print statement will be:\n# This\n# is a\n# nice book\n\n```\n"
           }
         ]
       },
