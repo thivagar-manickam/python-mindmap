@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "8a707957-99ea-437c-ba2f-6d1d23ac6e88",
+    "focusKey": "f5c3c049-5eb9-4b00-892c-4eaea31aa051",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -536,7 +536,11 @@ export function generateSimpleModel() {
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "Mapping"
+            "data": "Dictionary"
+          },
+          {
+            "type": "DESC",
+            "data": "**Dictionary **is a collection of ordered \\( as of Python 3.7, dictionaries are ordered. In the previous\n versions dictionaries are un\\-ordered \\), mutable and non\\-duplicate objects.\n The data are stored as **key:value** pairs in the dictionary, where the key can be of any immutable\n object and unique, whereas the value can be of any data type and duplicate as well.\n \n The curly braces \\( \\{ \\} \\) are used to denote a dictionary, where each key\\-value pair are separated by \n colon \\( : \\) and each key is separated by comma \\( , \\)\n \n Dictionary keys are case sensitive; same key with different cases of key are treated differently.\n\n###  Example\n\n```python\nnew_dict = {} # Empty Dictionary\n\ndict2 = {'name': 'ryan', 'age', 24} # defining dict with default values\n\nnew_dict['name'] = 'Riya' # Will add the key-value to dict if not present else update the value\nnew_dict.setdefault('age', 24) # will add the key-value to dict if not present, else return the value\n\nprint(new_dict['name']) # accessing the name using array indexing method\n# Output - Riya\n\n```\n\n **Identifying the type**\n```python\nprint(type(new_dict)) # will print <class 'dict'>\nprint(isinstance(new_dict)) # will return true if new_dict is of type dict\n\n```\n"
           }
         ]
       },
