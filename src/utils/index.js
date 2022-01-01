@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "f5c3c049-5eb9-4b00-892c-4eaea31aa051",
+    "focusKey": "464cc83d-84fe-47d4-a2e8-064b5e3bcc15",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -161,6 +161,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "list"
+          },
+          {
+            "type": "DESC",
+            "data": "**List **is a heterogenous collection of different objects and is mutable in nature. \n They are similar to the arrays in other programming language and are much more flexible\n owing to the fact that multiple object types can be stored within a List.\n\n List are ordered in nature and their values can be retrieved based on their index. Also we can \n directly modify the value in a list by accessing it through its index and making the modifications.\n\n###  Examples\n\n```python\na = [] # Empty list\nb = [12,'ryan',(23, 12)] # Multiple object types in a single list\n\na.append(12) # Add 12 as last element of the list\na.insert(1, 23) # Insert 23 at index position 1\na.pop() # Will remove the last element in the list\na.pop(index=2) # Will remove the element in the 2nd index position\n\nprint(b[0]) # will print the value in the 0th index position\n\n```\n\n###  Identifying the type\n\n```python\nprint(type(a)) # return <class 'list'>\nprint(isinstance(a, list)) # return true if variable 'a' is of type list\n\n```\n"
           }
         ]
       },
