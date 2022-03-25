@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "464cc83d-84fe-47d4-a2e8-064b5e3bcc15",
+    "focusKey": "917b5cae-abc7-4e39-855e-76d8f00cacd9",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -41,6 +41,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "tuple"
+          },
+          {
+            "type": "DESC",
+            "data": "**Tuple** is a collection of heterogenous objects much similar to that of the List.\n The paranthesis \\[ \\( \\) \\] are used to define/create a tuple. The items in the tuple are seperated by comma \\( , \\)\n Though it is not necessary, its always good to enclose the tuple object in \\( \\) while defining them. \n\n```python\n# Ways to create a tuple\n\na = (10, 20, '18') # General way of creating a tuple using ()\nprint(a) # will print (10, 20, '18')\n\n\"\"\" \nWhen using a tuple class we need to pass an iterable object from which the items will\nbe picked from\nIf we are passing a dictionary object to the tuple class then the keys are considered \nas the items to be added to the tuple\n\"\"\"\nb = tuple([10, 20, 23]) \n\n# When creating a tuple with a single element it is mandatory that \n# we append a comma (,) at the end so that python will interpret it as a tuple\n\nc = (10) # Here c will be of type int\nc = (10,)# Here c will be of type tuple\n\n```\n\n Tuples are immutable, meaning that once the tuple is defined we cannot modify it directly either by accessing the index or by any in build methods.\n\n Though a tuple is immutable we can modify them by converting it to list, making the changes to the list and then converting it back to a tuple.\n\n```python\n# Error with Item Assignment\nc = (10, 20, 30)\nc[2] = 40 # Will throw a TypeError as tuple does not support item assignment\n\n# Way to modify the elements of a tuple\nd = list(c) # converting tuple to a list\nd[2] = 40 # modifying the list\nc = tuple(d) # converting the modified list back to tuple\nprint(c)\n\n# Output\n(10,20,40)\n\n```\n\n**Identifying the type**\n```python\nprint(type(c)) # will print <class 'tuple'>\nprint(isinstance(c)) # will return true if c is of type tuple\n\n```\n"
           }
         ]
       },
@@ -164,7 +168,7 @@ export function generateSimpleModel() {
           },
           {
             "type": "DESC",
-            "data": "**List **is a heterogenous collection of different objects and is mutable in nature. \n They are similar to the arrays in other programming language and are much more flexible\n owing to the fact that multiple object types can be stored within a List.\n\n List are ordered in nature and their values can be retrieved based on their index. Also we can \n directly modify the value in a list by accessing it through its index and making the modifications.\n\n###  Examples\n\n```python\na = [] # Empty list\nb = [12,'ryan',(23, 12)] # Multiple object types in a single list\n\na.append(12) # Add 12 as last element of the list\na.insert(1, 23) # Insert 23 at index position 1\na.pop() # Will remove the last element in the list\na.pop(index=2) # Will remove the element in the 2nd index position\n\nprint(b[0]) # will print the value in the 0th index position\n\n```\n\n###  Identifying the type\n\n```python\nprint(type(a)) # return <class 'list'>\nprint(isinstance(a, list)) # return true if variable 'a' is of type list\n\n```\n"
+            "data": "**List **is a heterogenous collection of different objects and is mutable in nature. \n They are similar to the arrays in other programming language and are much more flexible\n owing to the fact that multiple object types can be stored within a List.\n\n List are ordered in nature and their values can be retrieved based on their index. Also we can \n directly modify the value in a list by accessing it through its index and making the modifications.\n\n### Examples\n\n```python\na = [] # Empty list\nb = [12,'ryan',(23, 12)] # Multiple object types in a single list\n\na.append(12) # Add 12 as last element of the list\na.insert(1, 23) # Insert 23 at index position 1\na.pop() # Will remove the last element in the list\na.pop(index=2) # Will remove the element in the 2nd index position\n\nprint(b[0]) # will print the value in the 0th index position\n\n```\n\n### Identifying the type\n\n```python\nprint(type(a)) # return <class 'list'>\nprint(isinstance(a, list)) # return true if variable 'a' is of type list\n\n```\n"
           }
         ]
       },
@@ -246,7 +250,6 @@ export function generateSimpleModel() {
         "parentKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
         "subKeys": [
           "f27c0424-b690-460f-9778-3edf3fc11578",
-          "e3a76b23-03a2-4d9a-b083-eeec3aac7f6a",
           "3d564825-425c-4760-86e6-0597f883d77a",
           "4fa61e9e-c850-4cb1-9254-c8375bc5fea8"
         ],
@@ -255,7 +258,7 @@ export function generateSimpleModel() {
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "Scopes &\nClosures"
+            "data": "Scopes"
           }
         ]
       },
@@ -544,7 +547,7 @@ export function generateSimpleModel() {
           },
           {
             "type": "DESC",
-            "data": "**Dictionary **is a collection of ordered \\( as of Python 3.7, dictionaries are ordered. In the previous\n versions dictionaries are un\\-ordered \\), mutable and non\\-duplicate objects.\n The data are stored as **key:value** pairs in the dictionary, where the key can be of any immutable\n object and unique, whereas the value can be of any data type and duplicate as well.\n \n The curly braces \\( \\{ \\} \\) are used to denote a dictionary, where each key\\-value pair are separated by \n colon \\( : \\) and each key is separated by comma \\( , \\)\n \n Dictionary keys are case sensitive; same key with different cases of key are treated differently.\n\n###  Example\n\n```python\nnew_dict = {} # Empty Dictionary\n\ndict2 = {'name': 'ryan', 'age', 24} # defining dict with default values\n\nnew_dict['name'] = 'Riya' # Will add the key-value to dict if not present else update the value\nnew_dict.setdefault('age', 24) # will add the key-value to dict if not present, else return the value\n\nprint(new_dict['name']) # accessing the name using array indexing method\n# Output - Riya\n\n```\n\n **Identifying the type**\n```python\nprint(type(new_dict)) # will print <class 'dict'>\nprint(isinstance(new_dict)) # will return true if new_dict is of type dict\n\n```\n"
+            "data": "**Dictionary **is a collection of ordered \\( as of Python 3.7, dictionaries are ordered. In the previous\n versions dictionaries are un\\-ordered \\), mutable and non\\-duplicate objects.\n The data are stored as **key:value** pairs in the dictionary, where the key can be of any immutable\n object and unique, whereas the value can be of any data type and duplicate as well.\n\n The curly braces \\( \\{ \\} \\) are used to denote a dictionary, where each key\\-value pair are separated by \n colon \\( : \\) and each key is separated by comma \\( , \\)\n\n Dictionary keys are case sensitive; same key with different cases of key are treated differently.\n\n### Example\n\n```python\nnew_dict = {} # Empty Dictionary\n\ndict2 = {'name': 'ryan', 'age', 24} # defining dict with default values\n\nnew_dict['name'] = 'Riya' # Will add the key-value to dict if not present else update the value\nnew_dict.setdefault('age', 24) # will add the key-value to dict if not present, else return the value\n\nprint(new_dict['name']) # accessing the name using array indexing method\n# Output - Riya\n\n```\n\n **Identifying the type**\n```python\nprint(type(new_dict)) # will print <class 'dict'>\nprint(isinstance(new_dict)) # will return true if new_dict is of type dict\n\n```\n"
           }
         ]
       },
@@ -855,6 +858,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "range"
+          },
+          {
+            "type": "DESC",
+            "data": "**Python range\\(\\) function** returns the sequence of the given number between the given range.The range\\(\\) function takes three params:```python\nrange(start, stop, step)\n# start - specifies the starting value and defaults to 0 if not mentioned\n# stop - specifies until which value the sequence should be generated. stop is mandatory param\n# step - specifies what will be the increment or decrement value for the generated sequence.\n#        Default value for step is 1\n\n```range\\(\\) function will generate a sequence from _**start**__ _to _**stop \\- 1**_ value with the increment or decrement based on the step value.**Creating a range function:**```python\nrange(10) # When only one value is given, it will be considered as the stop value\n\nrange(10, 20, 1) # will generate sequence from 10 to 19 with an increment of 1\n\n```The range\\(\\) function is predominantly used in the the loops to iterate through a list or just to print a sequence of numbers.```python\n# Printing numbers from 1 to 4\nfor i in range(1,5):\n    print(i) # Will print the values 1, 2, 3, 4\n    \n# Used to generate the index value of the list object\nnew_list = [10, 20, 30, 40]\nfor i in range(len(new_list)):\n    print(new_list[i]) # Will print the value 10, 20, 30, 40\n    \n# In the above for loop, range is used to generate the index value which can be \n# used to access data from the list\n\n```"
           }
         ]
       },
@@ -950,19 +957,6 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "join"
-          }
-        ]
-      },
-      {
-        "key": "e3a76b23-03a2-4d9a-b083-eeec3aac7f6a",
-        "parentKey": "a7eba28c-a6b9-426c-ba12-54c98c4ea30b",
-        "subKeys": [],
-        "collapse": false,
-        "style": null,
-        "blocks": [
-          {
-            "type": "CONTENT",
-            "data": "Closures"
           }
         ]
       },
