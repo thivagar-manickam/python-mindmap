@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "917b5cae-abc7-4e39-855e-76d8f00cacd9",
+  "focusKey": "d4382eda-4c3f-4ed1-a0f7-a763dc224cbc",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -198,6 +198,10 @@
         {
           "type": "CONTENT",
           "data": "Set"
+        },
+        {
+          "type": "DESC",
+          "data": "Set is an heterogenous collection of objects and does not allow duplicates to be present in it."
         }
       ]
     },
