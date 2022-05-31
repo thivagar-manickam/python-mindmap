@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "d4382eda-4c3f-4ed1-a0f7-a763dc224cbc",
+  "focusKey": "917b5cae-abc7-4e39-855e-76d8f00cacd9",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -855,7 +855,7 @@
         },
         {
           "type": "DESC",
-          "data": "**Python range\\(\\) function** returns the sequence of the given number between the given range.The range\\(\\) function takes three params:```python\nrange(start, stop, step)\n# start - specifies the starting value and defaults to 0 if not mentioned\n# stop - specifies until which value the sequence should be generated. stop is mandatory param\n# step - specifies what will be the increment or decrement value for the generated sequence.\n#        Default value for step is 1\n\n```range\\(\\) function will generate a sequence from _**start**__ _to _**stop \\- 1**_ value with the increment or decrement based on the step value.**Creating a range function:**```python\nrange(10) # When only one value is given, it will be considered as the stop value\n\nrange(10, 20, 1) # will generate sequence from 10 to 19 with an increment of 1\n\n```The range\\(\\) function is predominantly used in the the loops to iterate through a list or just to print a sequence of numbers.```python\n# Printing numbers from 1 to 4\nfor i in range(1,5):\n    print(i) # Will print the values 1, 2, 3, 4\n    \n# Used to generate the index value of the list object\nnew_list = [10, 20, 30, 40]\nfor i in range(len(new_list)):\n    print(new_list[i]) # Will print the value 10, 20, 30, 40\n    \n# In the above for loop, range is used to generate the index value which can be \n# used to access data from the list\n\n```"
+          "data": "Python **range\\(\\)** function returns the sequence of the given number between the given range.\n\nThe range\\(\\) function takes three params: \n```none\nrange(start, stop, step)\n\nstart - specifies the starting value and defaults to 0 if not mentioned\nstop - specifies until which value the sequence should be generated. stop is mandatory param\nstep - specifies what will be the increment or decrement value for the generated sequence.\n\n```\n\nThe range\\(\\) function will generate a sequence from **start **_to _**stop \\- 1 **value with the increment or decrement based on the step value.\nThe Default value for the start and step is 0 and 1 respectively. When only one value is passed to the range\\(\\) it is considered as the stop value and the default start and stop value is applied.\n\n**Creating a range function:**\n```python\nrange(10) # Will generate a sequence from 0 to 9 with an increment value of 1\n\nrange(10, 20, 1) # will generate sequence from 10 to 19 with an increment of 1\n\nrange(20, 10, -1) # Will generate a sequence from 20 to 11 with a decrement value of 1\n\n```\n\nThe range\\(\\) function is predominantly used in the the loops to iterate through a list or just to print a sequence of numbers.\n```python\n#Printing numbers from 1 to 4\nfor i in range(1,5):\n    print(i) # Will print the values 1, 2, 3, 4\n    \n#Used to generate the index value of the list object\nnew_list = [10, 20, 30, 40]\nfor i in range(len(new_list)):\n    print(new_list[i]) # Will print the value 10, 20, 30, 40\n\n```\nIn the above for loop, range is used to generate the index value which can be used to access data from the list"
         }
       ]
     },
