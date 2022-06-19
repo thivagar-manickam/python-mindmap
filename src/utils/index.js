@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "d4382eda-4c3f-4ed1-a0f7-a763dc224cbc",
+    "focusKey": "f2e6836b-f3a3-4b57-9539-ceafb2b90d78",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -1059,6 +1059,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "pass"
+          },
+          {
+            "type": "DESC",
+            "data": "Pass keyword is used as a placeholder value for future code. It is also referred to as a null statement.\n\nThe difference between a pass and a comment is that, a comment is ignored by the interpreter whereas the pass command\nis not ignored by the interpreter.\n\n "
           }
         ]
       },

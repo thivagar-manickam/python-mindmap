@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "d4382eda-4c3f-4ed1-a0f7-a763dc224cbc",
+  "focusKey": "f2e6836b-f3a3-4b57-9539-ceafb2b90d78",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -1049,6 +1049,10 @@
         {
           "type": "CONTENT",
           "data": "pass"
+        },
+        {
+          "type": "DESC",
+          "data": "**Pass statement **is used as a placeholder value for future code. It is also referred to as a null statement.\n\nThe difference between a pass and a comment is that, a comment is ignored by the interpreter whereas the pass command\nis not ignored by the interpreter.\n\nWe cannot have an empty code within the for loop, function definition, class definition or in conditional statements. To avoid the\nerror we get when the code block is empty, we use the pass statement.\n\n**Example of using pass statement:**\n\n```python\n# Using a pass statement in if condition\na = 10\nb = 20\nif a > b:\n    pass\nelse:\n    print(a)\n\n```\n\n```python\n# Using a pass statement in function definition\ndef python_function:\n    pass\n\n```\n\n```python\n# Using a pass statement in class definition\nclass python_class:\n    pass\n\n```\n\n```python\n# Using a pass statement in a for loop\nfor i in range(0, 10):\n    pass\n\n```\n"
         }
       ]
     },
