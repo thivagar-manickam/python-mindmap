@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "f2e6836b-f3a3-4b57-9539-ceafb2b90d78",
+    "focusKey": "88e71315-84d5-424c-9d0d-debc96be9275",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -918,6 +918,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "break"
+          },
+          {
+            "type": "DESC",
+            "data": "**break** is used to bring the control out of the loop and inner most loop \\(in case of nested loops\\) when a certain condition is met.\n\nbreak statement is mostly given inside a conditional statement \\(if, elif \\) within the loop, to exit the loop when the condition is statisfied.\n\n**Example of using the break statement:**\n```python\nfor value in 'Hello':\n    if value == 'l':\n        break # Will break out of the loop as soon as character 'l' is encountered \n    else:\n        print(f'The character printed is: {value}')\n        \n# Output\n# The character printed is: H\n# The character printed is: e\n\n```\n\n**Example of using a break statement inside a nested loop:**\n```python\nfor value in 'He':\n    for num in range(0, 3):\n        if num == 1:\n            break # This will break out of the inner most loop\n        \n        else:\n            print(f'The character and num printed is: {value} and {num}')\n            \n# Output:\n# The character and num printed is: H and 0\n# The character and num printed is: e and 0\n\n```\n"
           }
         ]
       },
@@ -1062,7 +1066,7 @@ export function generateSimpleModel() {
           },
           {
             "type": "DESC",
-            "data": "Pass keyword is used as a placeholder value for future code. It is also referred to as a null statement.\n\nThe difference between a pass and a comment is that, a comment is ignored by the interpreter whereas the pass command\nis not ignored by the interpreter.\n\n "
+            "data": "**Pass statement **is used as a placeholder value for future code. It is also referred to as a null statement.\n\nThe difference between a pass and a comment is that, a comment is ignored by the interpreter whereas the pass command\nis not ignored by the interpreter.\n\nWe cannot have an empty code within the for loop, function definition, class definition or in conditional statements. To avoid the\nerror we get when the code block is empty, we use the pass statement.\n\n**Example of using pass statement:**\n\n```python\n# Using a pass statement in if condition\na = 10\nb = 20\nif a > b:\n    pass\nelse:\n    print(a)\n\n```\n\n```python\n# Using a pass statement in function definition\ndef python_function:\n    pass\n\n```\n\n```python\n# Using a pass statement in class definition\nclass python_class:\n    pass\n\n```\n\n```python\n# Using a pass statement in a for loop\nfor i in range(0, 10):\n    pass\n\n```\n"
           }
         ]
       },
