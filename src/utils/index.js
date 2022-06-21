@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "88e71315-84d5-424c-9d0d-debc96be9275",
+    "focusKey": "9cdc6fe2-8b6c-4181-8352-ac0642705431",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -578,6 +578,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "continue"
+          },
+          {
+            "type": "DESC",
+            "data": "**Continue** statement is a loop control statement, that forces the program to terminate the current iteration and proceed with the next iteration.\n\nThe **Continue** statement can be used in both for and while loops.\n\nWhen the Continue statement is encountered inside the loop, any code blow after the statement is skipped and the loop control goes to the next iteration.\n\nExample of Continue statement in for loop:\n```python\n# Program to print numbers from 1 to 5 skipping 3\nfor i in range(1, 6):\n    if(i == 3):\n        continue\n    else:\n        print(i)\n\n#Output\n# 1\n# 2\n# 4\n# 5\n\n# Explanation - When the value of i is 3, inside of print the value, it skips the iteration and \n# moves to the next iteration\n\n```\n"
           }
         ]
       },
