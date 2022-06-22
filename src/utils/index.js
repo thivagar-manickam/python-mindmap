@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "9cdc6fe2-8b6c-4181-8352-ac0642705431",
+    "focusKey": "95364fba-fad5-42e6-8aba-48eddfd9c85d",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -595,6 +595,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "If statment"
+          },
+          {
+            "type": "DESC",
+            "data": "**If** statement is used to make decision on what needs to be done when certain condition is met.\n\nThe **If** statement contains a logical expression using which data is compared and a decision is made based on the result of the comparison.\n\n\n### Syntax:\n\n```python\nif(expression):\n    statement to be executed\n\n```\n\nThe **If** statement can be used in loops, comprehension functions \\(List comprehension\\), class definitions and functions. \nThe expression given as part of the if statement should always evaluate to a boolean value.\n\n**If** the value is **TRUE**, then the statement\\(s\\) with in the if block is executed; if the value is **FALSE**, the code immediately after the end of If statement\\(s\\)\nis executed.\n\n\n### Example \\- If condition inside a for loop\n\n```python\n# Print a statment to console only when value of i is 3\nfor i in range(1, 6):\n    if(i == 3): # This is a condition check to see if the value of i is 3\n        print(\"i value is equal to 3\")\n        \n# Output:\n# i value is equal to 3\n\n```\n\nIt is possible to have multiple If conditions within a loop  or functions. When there is multiple If condition, each condition is evaluated based on the\nexpression and then execute the block for which the condition evaluates to TRUE.\n\n\n### Example \\- Multiple If conditions:\n\n```python\n# Program to print statement to console when the value of i is 3 and 4\nfor i in range(1, 6):\n    if(i == 3):\n        print('i value is 3')\n    if(i == 4):\n        print('i value is 4')\n        \n# Output\n# i value is 3\n# i value is 4\n\n```\n"
           }
         ]
       },
