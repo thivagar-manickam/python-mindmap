@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "95364fba-fad5-42e6-8aba-48eddfd9c85d",
+    "focusKey": "92d73690-42f0-46fb-9ed6-01b11dd5b6c7",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -1323,7 +1323,11 @@ export function generateSimpleModel() {
         "blocks": [
           {
             "type": "CONTENT",
-            "data": "If else statement"
+            "data": "else statement"
+          },
+          {
+            "type": "DESC",
+            "data": "**Else** statement is used as a default statment. It is always used along with a If statment and cannot be used as a standalone statement.\n\nThere can be only one **Else** clause for an If statment. Proper indendations needs to be done when nested If else conditons are used.\n\nThe **Else** clause is executed when its matching If condition fails.\n\n\n### Syntax:\n\n```python\nif(condition):\n    statement(s)\nelse:\n    statement(s) # Executed when the if condition evaluates to TRUE\n\n```\n\n\n### Example:\n\n```python\n# Program to print number from 1 to 5 with 3 being replaced with a *\nfor i in range(1, 6):\n    if(i == 3):\n        print(\"*\")\n    else:\n        print(i) # Will print the i value if i != 3\n        \n# Output\n# 1\n# 2\n# *\n# 4\n# 5\n\n```\n"
           }
         ]
       },
