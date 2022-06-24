@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "92d73690-42f0-46fb-9ed6-01b11dd5b6c7",
+    "focusKey": "4f9282fa-387e-40e0-8c45-2fa707f55f8c",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -319,6 +319,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "elif statement"
+          },
+          {
+            "type": "DESC",
+            "data": "The **Elif** statement is also used along with the If statement. One minor issue with multiple If statment is that, irrespective of whether a condition is evaluted to** TRUE or FALSE**, all the If condition will be evaluated. This will lead to unnecessary condition checking and waste of resources.\n\nTo avoid this problem we use the **Elif** statement\\. As the name suggest, the condition of the Elif statement is evaluated only when the previous** If / Elif** condition fails. Once an Elif block is executed rest of the conditional statements in the block are ignored and proceed to next iteration. This reduces the number of condition checking need to be done.\n\n\n### Syntax:\n\n```python\nif(condition):\n    statement(s)\nelif(condition):\n    statement(s) # Executed when the If condition fails and elif condtion is success\nelse:\n    statement(s)\n\n```\n\n\n### Example:\n\n```python\n# Print value from 1 to 4\n# Pring * when i = 2 and print & when i = 3\nfor i in range(1, 5):\n    if(i == 2):\n        print('*')\n    elif(i == 3):\n        print('&')\n    else:\n        print(i)\n        \n# Output:\n# 1\n# *\n# &\n# 4\n\n```\n"
           }
         ]
       },
