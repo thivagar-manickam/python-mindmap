@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "4f9282fa-387e-40e0-8c45-2fa707f55f8c",
+  "focusKey": "f50dce09-3768-4921-95e9-36d3cd209833",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -673,6 +673,10 @@
         {
           "type": "CONTENT",
           "data": "split"
+        },
+        {
+          "type": "DESC",
+          "data": "The **string\\.split\\(\\)** function is used to split the given large string into a list of strings based on the separator given.\n\n### Syntax:\n\n```python\nstring.split(separator, maxsplit)\n\n# separator - Optional. Specifies the separator to be used for splitting. By default\n# the whitespaces(\" \") is considered as the separator\n\n# maxsplit - Optional.  Specifies how many splits to do. \n# Default value is -1, which is \"all occurrences\"\n\n```\n\n### Example 1 \\- With only the separator mentioned\n\n```python\ntext = \"I_love_to_read_books\"\n\narr = text.split(\"_\");\n\nprint(arr)\n\n# Output\n['I', 'love', 'to', 'read', 'books']\n\n```\n\n### Example 2 \\- With both separator and maxsplit\n\n```python\ntext = \"I_love_to_read_books\"\n\narr = text.split(\"_\", 2);\n\nprint(arr)\n\n# Output\n['I', 'love', 'to_read_books']\n\n```\n"
         }
       ]
     },
