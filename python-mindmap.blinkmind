@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "5fd50f3b-4100-43b6-aeef-6d8e7394428d",
+  "focusKey": "c97307ee-9bd1-43b6-9b89-77493dfde29d",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -1174,7 +1174,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "find"
+          "data": "find & index"
+        },
+        {
+          "type": "DESC",
+          "data": "The find and index methods are similar to each other and are used to find the first occurrence \n of the given character or sub\\-string within the main string.\n\n###  Syntax for find\\(\\):\n\n```python\nstring.find(value, start, end)\n\n# value - required. The value which needs to be found in the string\n# start - optional. Where to start searching for the value from. Default value is 0\n# end - optional. Where to stop searching for the value. Default value is end of the string\n\n```\n\n###  Syntax for index\\(\\):\n\n```\nstring.index(value, start, end)\n\n# value - required. The value which needs to be found in the string\n# start - optional. Where to start searching for the value from. Default value is 0\n# end - optional. Where to stop searching for the value. Default value is end of the string\n\n```\n\n The main difference between the find and index method is that, the find\\(\\) will return \\-1 if the specified value is not in the string, \n whereas the index\\(\\) will raise a ValueError if the sub\\-string is not found.\n\n###  Example for find\\(\\):\n\n```python\ntext = 'Hello, welcome to my world'\nprint(text.find('welcome'))\nprint(text.find('z'))\n\n# Output\n# 7\n# -1\n\n```\n\n###  Example for index\\(\\):\n\n```python\ntext = 'Hello, welcome to my world'\nprint(text.index('welcome'))\nprint(text.index('z'))\n\n# Output\n# 7\n# ValueError: substring not found \n\n```\n"
         }
       ]
     },
