@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "f50dce09-3768-4921-95e9-36d3cd209833",
+  "focusKey": "5fd50f3b-4100-43b6-aeef-6d8e7394428d",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -971,6 +971,10 @@
         {
           "type": "CONTENT",
           "data": "join"
+        },
+        {
+          "type": "DESC",
+          "data": "The string **Join** method is used to join the values from an iterable object using the specified separator character or string.\n\n###  Syntax:\n\n```python\nseparatorString.join(iterableObject)\n\n```\n\n###  Example \\- Join using tuple as iterable object\n\n```python\ntupleObj = ('apple', 'mango', 'orange')\nseparator = '_'\nprint(separator.join(tupleObj)\n\n# Output\n# apple_mango_orange\n\n```\n\n###  Example \\- Join using dict as iterable object\n\n```python\ndictObj = {'name': 'ram', 'age': 23}\nseparator = '_'\nprint(separator.join(dictObj))\n\n# Output\n# name_age\n\n```\n\n**Note :\\-** When we use a dict as an iterable object to the join method, the dict keys are joined and not the values.\n\n### Example \\- Join using list as iterable object\n\n```python\nlistObj = ['apple', 'mango', 'orange']\nseparator = '_'\nprint(separator.join(listObj))\n\n# Output\n# apple_mango_orange\n\n```\n"
         }
       ]
     },
