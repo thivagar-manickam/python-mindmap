@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "c97307ee-9bd1-43b6-9b89-77493dfde29d",
+  "focusKey": "015d562d-ef8b-4d18-a422-897aef583e0e",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -898,6 +898,10 @@
         {
           "type": "CONTENT",
           "data": "replace"
+        },
+        {
+          "type": "DESC",
+          "data": "**replace\\(\\)** as the name suggest is used to change/replace a particular string with another value. \n We can either replace all the occurrences or only certain count of occurances.\n\n### Syntax:\n\n```python\nstring.replace(stringToReplace, replaceString, count)\n\n# stringToReplace - Required. The string that needs to be replaced in the bigger string\n# replaceString - Required. The string used to replace the original string with\n# count - Optional. Number of occurrences to replace. Default value is -1 which \n#         replaces all the occurrences\n\n```\n\n### Examples:\n\n```python\ntext = 'Pandas are beautiful'\nreplaceText = text.replace('Pandas','Elephant')\nprint(replaceText)\n\n# Output\n# Elephant are beautiful \n\n```\n\n```python\n# replace() with the count param\ntext = \"I love appple.I love banana.I love orange\"\nreplaceText = text.replace('I', 'We', 2)\nprint(replaceText)\n\n# Output\n# We like apple.We like banana.I love orange\n\n```\n\n The **replace\\(\\)** will not alter the original string, rather return the replaced string. So until we **reassign it to a new variable**\n** or print it, we will not be able to see the replaced value**."
         }
       ]
     },
