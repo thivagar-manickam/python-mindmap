@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "015d562d-ef8b-4d18-a422-897aef583e0e",
+  "focusKey": "56c130f3-9ef8-4fa8-8676-03f90cb50e8b",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -124,7 +124,11 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "capitalize"
+          "data": "capitalize & title"
+        },
+        {
+          "type": "DESC",
+          "data": "**capitalize\\(\\)** and **title\\(\\)** are both string methods which are used the convert the first character of the \n word in the string to uppercase.\n\n###  Difference between capitalize\\(\\) and title\\(\\): \n\n The difference between **capitalize\\(\\) and title\\(\\)** is that, capitalize\\(\\) will only convert the first character of the \n sentence to uppercase, whereas the title\\(\\) will convert the first character of every word in the string  to upper case.\n \n Also in title\\(\\) if the first character of the word is a number or symbol, the first character after that will be converted\n to uppercase.\n\n###  Syntax:\n\n```python\n# Syntax for capitalize\nmain_string.capitalize()\n\n# Syntax for title\nmain_string.title()\n\n```\n\n###  Example for capitalize:\n\n```python\nmain_string = 'hello, I am varun'\nprint(main_string.capitalize())\n\n# Output\nHello, I am varun\n\n```\n\n### Example for title:\n\n```python\nmain_string = 'Hello, i am varun'\nprint(main_string.title());\n\n# Output\nHello, I Am Varun\n\nmain_string = 'hello, i am 2nd in my class'\nprint(main_string.title())\n\n# Output\nHello, I Am 2Nd In My Class\n\n```\n\n Note \\- the capitalize\\(\\) and title\\(\\) will always return the modified string and will not alter the original string."
         }
       ]
     },
@@ -906,19 +910,6 @@
       ]
     },
     {
-      "key": "deb9533b-4bcd-4e6e-98f8-3f361c8e95fb",
-      "parentKey": "d27d71d0-d6bf-4e9f-a4c4-e0193fca2f62",
-      "subKeys": [],
-      "collapse": false,
-      "style": null,
-      "blocks": [
-        {
-          "type": "CONTENT",
-          "data": "title"
-        }
-      ]
-    },
-    {
       "key": "88e71315-84d5-424c-9d0d-debc96be9275",
       "parentKey": "0d294b23-1f70-4750-bc01-2f43478a49c2",
       "subKeys": [],
@@ -1262,7 +1253,6 @@
         "c97307ee-9bd1-43b6-9b89-77493dfde29d",
         "57c8e398-16ee-494a-ab2e-2980c38c102a",
         "56c130f3-9ef8-4fa8-8676-03f90cb50e8b",
-        "deb9533b-4bcd-4e6e-98f8-3f361c8e95fb",
         "4c9304ba-a37e-4b09-a213-5b0e2242a664"
       ],
       "collapse": false,
