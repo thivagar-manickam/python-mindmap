@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/python-mindmap/precache-manifest.de60bbbb42da1892a263652140ad9730.js"
+  "/python-mindmap/precache-manifest.c9815f9114d53c8ad43cfa499b17a9f2.js"
 );
 
 self.addEventListener('message', (event) => {
