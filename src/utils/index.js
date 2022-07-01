@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "56c130f3-9ef8-4fa8-8676-03f90cb50e8b",
+    "focusKey": "4c9304ba-a37e-4b09-a213-5b0e2242a664",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -199,6 +199,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "swapcase"
+          },
+          {
+            "type": "DESC",
+            "data": "**swapcase\\(\\)** is a method to convert all the lower case letter to upper case and vice versa in a larger string.\n It returns the string will all the replacement and will not modify or make changes to the original string.\n\n###  Syntax:\n\n```python\nmain_string.swapcase()\n\n```\n\n###  Example for swapcase:\n\n```python\nmain_string = 'I love APPle'\nprint(main_string.swapcase())\n\n# Output\n# i LOVE appLE\n\n```\n"
           }
         ]
       },
