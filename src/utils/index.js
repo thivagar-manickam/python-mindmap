@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "4c9304ba-a37e-4b09-a213-5b0e2242a664",
+    "focusKey": "57c8e398-16ee-494a-ab2e-2980c38c102a",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -383,6 +383,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "upper\nand\nlower"
+          },
+          {
+            "type": "DESC",
+            "data": "###  Upper case and Lower case:\n\n The Upper and lower case functions as the name suggest are used to either convert the entire text to \n all upper case letters or lower case letters.\n \n In addition to the upper\\(\\) and lower\\(\\) functions, python also have the isupper\\(\\) and islower\\(\\) functions which returns \n True if the letters are all upper case and lower case respectively.\n\n```none\nupper() --> to convert all the characters to upper case\n\nlower() --> to convert all the characters to lower case\n\nislower() --> returns True if all characters are lower case else False\n\nisupper() --> returns True if all characters are upper case else False\n\n```\n\n###  Keypoints for isupper\\(\\) and islower\\(\\):\n\n```none\n1. If it is a string with only white spaces both isupper() and islower() returns False\n\n2. Digits and symbols return “True” but if the string contains only digits and numbers then returns “False”. \n   Applicable to both isupper() and islower() functions\n\n```\n \n\n###  Examples: \n\n```python\ntest_string = 'I love PYTHON'\n\nprint(f'Output for lower - {test_string.lower()}')\nprint(f'Output for upper - {test_string.upper()}')\n\n# Output:\n# Output for lower - i love python\n# Output for upper - I LOVER PYTHON\n\n\n```\n\n```python\nis_lower_string = 'i love python'\nis_lower_false_string = 'I lover pythoN'\n\nprint(f'{test_string.islower()}')\nprint(f'{test_string.islower()}')\n\n# Output:\nTrue\nFalse\n\n```\n\n```python\nis_upper_string = 'I LOVE PYTHON'\nis_upper_string_false = 'I love PYTHON'\n\nprint(f'{test_string.isupper()}')\nprint(f'{test_string.isupper()}')\n\n# Output:\nTrue\nFalse\n\n```\n"
           }
         ]
       },
@@ -1187,7 +1191,7 @@ export function generateSimpleModel() {
           },
           {
             "type": "DESC",
-            "data": "The find and index methods are similar to each other and are used to find the first occurrence \n of the given character or sub\\-string within the main string.\n\n###  Syntax for find\\(\\):\n\n```python\nstring.find(value, start, end)\n\n# value - required. The value which needs to be found in the string\n# start - optional. Where to start searching for the value from. Default value is 0\n# end - optional. Where to stop searching for the value. Default value is end of the string\n\n```\n\n###  Syntax for index\\(\\):\n\n```\nstring.index(value, start, end)\n\n# value - required. The value which needs to be found in the string\n# start - optional. Where to start searching for the value from. Default value is 0\n# end - optional. Where to stop searching for the value. Default value is end of the string\n\n```\n\n The main difference between the find and index method is that, the find\\(\\) will return \\-1 if the specified value is not in the string, \n whereas the index\\(\\) will raise a ValueError if the sub\\-string is not found.\n\n###  Example for find\\(\\):\n\n```python\ntext = 'Hello, welcome to my world'\nprint(text.find('welcome'))\nprint(text.find('z'))\n\n# Output\n# 7\n# -1\n\n```\n\n###  Example for index\\(\\):\n\n```python\ntext = 'Hello, welcome to my world'\nprint(text.index('welcome'))\nprint(text.index('z'))\n\n# Output\n# 7\n# ValueError: substring not found \n\n```\n"
+            "data": "The find and index methods are similar to each other and are used to find the first occurrence \n of the given character or sub\\-string within the main string.\n\n### Syntax for find\\(\\):\n\n```python\nstring.find(value, start, end)\n\n# value - required. The value which needs to be found in the string\n# start - optional. Where to start searching for the value from. Default value is 0\n# end - optional. Where to stop searching for the value. Default value is end of the string\n\n```\n\n### Syntax for index\\(\\):\n\n```\nstring.index(value, start, end)\n\n# value - required. The value which needs to be found in the string\n# start - optional. Where to start searching for the value from. Default value is 0\n# end - optional. Where to stop searching for the value. Default value is end of the string\n\n```\n\n The main difference between the find and index method is that, the find\\(\\) will return \\-1 if the specified value is not in the string, \n whereas the index\\(\\) will raise a ValueError if the sub\\-string is not found.\n\n### Example for find\\(\\):\n\n```python\ntext = 'Hello, welcome to my world'\nprint(text.find('welcome'))\nprint(text.find('z'))\n\n# Output\n# 7\n# -1\n\n```\n\n### Example for index\\(\\):\n\n```python\ntext = 'Hello, welcome to my world'\nprint(text.index('welcome'))\nprint(text.index('z'))\n\n# Output\n# 7\n# ValueError: substring not found\n\n```\n"
           }
         ]
       },
