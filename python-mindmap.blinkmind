@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "009985f8-1429-48fc-a591-e60ab6a11475",
+  "focusKey": "e4abc4cc-6238-4d0b-92f4-56b940300d48",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -278,6 +278,10 @@
         {
           "type": "CONTENT",
           "data": "append"
+        },
+        {
+          "type": "DESC",
+          "data": "###  List Append:\n\n  The append method in Python is used to add an element to the end of a list. It takes one argument, \n  the item you want to append to the list.\n\n```python\nlist_object_name.append(object)\n\n```\n where the object can be a string, number or another object.\n\n###  Examples:\n\n```python\n#Example 1\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")\nprint(fruits) # Output - [\"apple\", \"banana\", \"cherry\", \"orange\"]\n\n#Example 2\nnumbers = [1, 2, 3, 4]\nnumbers.append(5)\nprint(numbers) # Output - [1, 2, 3, 4, 5]\n\n#Example 3\nfirst_list = [1, 2, 3, 4]\nfirst_list.append([3, 5, 6])\nprint(first_list) # Output - [1, 2, 3, 4, [3, 5, 6]]\n\n```\n \n Whatever is the argument that is passed to the append method will be added to the end of the list as it is."
         }
       ]
     },
