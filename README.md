@@ -2,6 +2,8 @@
 
 🚧🚧🚧 It is under development 🚧🚧🚧
 
+[Mind Map Site URL](https://thivagar-manickam.github.io/python-mindmap/)
+
 The python mindmap gives an overview of the basic concepts used in Python programming language.
 
 The python mind map project uses [Awehook - mind map](https://github.com/awehook/react-mindmap) for the development purpose.
