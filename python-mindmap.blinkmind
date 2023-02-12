@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
   "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-  "focusKey": "e4abc4cc-6238-4d0b-92f4-56b940300d48",
+  "focusKey": "50a82345-69b4-4a18-9daa-9d77577edd02",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -281,7 +281,7 @@
         },
         {
           "type": "DESC",
-          "data": "###  List Append:\n\n  The append method in Python is used to add an element to the end of a list. It takes one argument, \n  the item you want to append to the list.\n\n```python\nlist_object_name.append(object)\n\n```\n where the object can be a string, number or another object.\n\n###  Examples:\n\n```python\n#Example 1\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")\nprint(fruits) # Output - [\"apple\", \"banana\", \"cherry\", \"orange\"]\n\n#Example 2\nnumbers = [1, 2, 3, 4]\nnumbers.append(5)\nprint(numbers) # Output - [1, 2, 3, 4, 5]\n\n#Example 3\nfirst_list = [1, 2, 3, 4]\nfirst_list.append([3, 5, 6])\nprint(first_list) # Output - [1, 2, 3, 4, [3, 5, 6]]\n\n```\n \n Whatever is the argument that is passed to the append method will be added to the end of the list as it is."
+          "data": "### List Append:\n\n  The append method in Python is used to add an element to the end of a list. It takes one argument, \n  the item you want to append to the list.\n\n```python\nlist_object_name.append(object)\n\n```\n where the object can be a string, number or another object.\n\n### Examples:\n\n```python\n#Example 1\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")\nprint(fruits) # Output - [\"apple\", \"banana\", \"cherry\", \"orange\"]\n\n#Example 2\nnumbers = [1, 2, 3, 4]\nnumbers.append(5)\nprint(numbers) # Output - [1, 2, 3, 4, 5]\n\n#Example 3\nfirst_list = [1, 2, 3, 4]\nfirst_list.append([3, 5, 6])\nprint(first_list) # Output - [1, 2, 3, 4, [3, 5, 6]]\n\n```\n\n Whatever is the argument that is passed to the append method will be added to the end of the list as it is."
         }
       ]
     },
@@ -368,6 +368,10 @@
         {
           "type": "CONTENT",
           "data": "pop"
+        },
+        {
+          "type": "DESC",
+          "data": "### List Pop:\n\n The **list\\.pop\\(index\\)** method in Python is used to remove an element from a list and return its value.\n The optional argument, index, specifies the position of the element to be removed, and if it is not provided,\n the method removes and returns the last element in the list by default.\n\n\n### Example\n\n```python\nmy_list = [1, 2, 3, 4, 5]\n\npopped_element = my_list.pop(2)\n\nprint(popped_element) # Output - 3\n\nprint(my_list) # Output - [1, 2, 4, 5]\n\n```\n\n In above example, the **list\\.pop** method is used to **remove the element at index 2** in the list my\\_list. The removed element is assigned to the \n variable  popped\\_element and its value is 3. After the removal, the list my\\_list becomes \\[1, 2, 4, 5\\].\n\n You can also use the **list\\.pop** method without any argument to remove and return the last element in the list:\n```python\nmy_list = [1, 2, 3, 4, 5]\n\npopped_element = my_list.pop()\n\nprint(popped_element) # Output - 5\n\nprint(my_list) # Output - [1, 2, 3, 4]\n\n```\n"
         }
       ]
     },
@@ -999,6 +1003,10 @@
         {
           "type": "CONTENT",
           "data": "insert"
+        },
+        {
+          "type": "DESC",
+          "data": "###  List Insert:\n\n The _**list\\.insert\\(index, element\\)**_ method in Python is used to insert an element at a specific position in a list. \n The first argument, _**index**_, specifies the position in the list where the element should be inserted, and the second argument, \n _**element**_, is the value to be inserted.\n\n```python\n#Syntax\nlist.insert(index, element)\n\n# index - the position where the element to be inserted\n# element - the actual object to the inserted into the list\n\n```\n \n The element to be inserted into a list need not be a single number or a word. It can be other data types as well like a dictionary, set or a tuple.\n\n###  Examples:\n\n```python\nmy_list = [1, 2, 4, 5]\nmy_list.insert(2, 3)\nprint(my_list) # Output - [1, 2, 3, 4, 5]\n\nmy_list = [1, 2, 4, 5]\nmy_list.insert(2, [12, 34, 'Alice'])\nprint(my_list) # Output - [1, 2, [12, 34, 'Alice'], 4, 5]\n\n```\n"
         }
       ]
     },
@@ -1203,6 +1211,10 @@
         {
           "type": "CONTENT",
           "data": "extend"
+        },
+        {
+          "type": "DESC",
+          "data": "###  List Extend\n\n The **list\\.extend\\(iterable\\)** method in Python is used to add elements from an iterable \\(e.g., a list, a tuple, or a string\\) to the end of a list. \n The argument, **iterable**, can be any object that can be iterated upon, such as a list, a tuple, a string, etc. The elements of the iterable will be appended \n to the list one by one.\n\n###  Examples:\n\n```python\nmy_list = [1, 2, 4, 5]\nmy_list.extend([3, 6, 9])\nprint(my_list) # Output -  [1, 2, 4, 5, 3, 6, 9]\n\n```\n"
         }
       ]
     },
