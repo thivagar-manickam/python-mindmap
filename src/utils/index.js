@@ -11,7 +11,7 @@ export function generateSimpleModel() {
   return Model.create({
     "rootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
     "editorRootTopicKey": "83dfa8ec-e56a-4b3a-a583-832497e10a20",
-    "focusKey": "50a82345-69b4-4a18-9daa-9d77577edd02",
+    "focusKey": "eb9702d4-e132-49ee-b988-7887b8abf3f7",
     "extData": {
       "TOPIC_REFERENCE": {
         "reference": {}
@@ -365,6 +365,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "copy"
+          },
+          {
+            "type": "DESC",
+            "data": "###  List Copy:\n\n The **list\\.copy\\(\\)** method in Python is used to create a shallow copy of a list, i.e., a new list that contains the same elements as the original list.\n In Python, when you assign one list to another, both variables refer to the same object in memory. So, if you make any changes to one of the lists, it will \n affect  the other as well. This can be a problem in some cases, especially when you want to **create a new list based on an existing list but don't **\n** want any changes in the new list to affect the original list**.\n\n The **list\\.copy** method solves this problem by creating a shallow copy of the list, i.e., a new list that contains the same elements as \n the original list but is a **distinct object in memory**. **Any changes made to the new list will not affect the original list**.\n\n###  Example\n\n```python\noriginal_list = [1, 2, 3, 4, 5]\nnew_list = original_list.copy()\n\nprint(original_list) # Output - [1, 2, 3, 4, 5]\n\nprint(new_list) # Output - [1, 2, 3, 4, 5]\n\nnew_list[0] = 10\nprint(original_list) # Output - [1, 2, 3, 4, 5]\nprint(new_list) # Output - [10, 2, 3, 4, 5]\n\n```\n \n In the above example, the **list\\.copy** method is used to create a shallow copy of the list original\\_list and assign it to the variable new\\_list. \n The contents of both lists are printed and are seen to be the same. Then, the first element of new\\_list is changed to 10. \n When the contents of both lists are printed again, **it can be seen that the change made to new\\_list has not affected original\\_lis**t\\.\n\n It's important to note that the shallow copy created by the **list\\.copy** method only **applies to the top\\-level elements** of the list. \n If the list contains elements that are **themselves lists or other mutable objects**, then **changes made to those objects in the new**\n** list will be reflected in the original list as well**, because the objects themselves are not copied, only their references are copied."
           }
         ]
       },
@@ -737,6 +741,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "clear"
+          },
+          {
+            "type": "DESC",
+            "data": "###  List Clear:\n\n The **list\\.clear\\(\\)** method is used to remove all elements from a list, effectively making it an empty list.\n\n###  Example\n\n```python\nmy_list = [1, 2, 3, 4, 5]\n\nmy_list.clear()\n\nprint(my_list) # Output - []\n\n```\n \n In the above example, the **list\\.clear** method is called on the list my\\_list, removing all elements from it. \n After the operation, the list my\\_list becomes an **empty list \\[\\]**."
           }
         ]
       },
@@ -1191,6 +1199,10 @@ export function generateSimpleModel() {
           {
             "type": "CONTENT",
             "data": "remove"
+          },
+          {
+            "type": "DESC",
+            "data": "###  List Remove:\n\n The **list\\.remove\\(element\\)** method is used to remove the first occurrence of a specified element in a list. \n The argument, **element**, is the value to be removed from the list. If the element is not found in the list, a **ValueError **is raised.\n\n###  Example\n\n```python\nmy_list = [1, 2, 3, 4, 5, 3]\n\nmy_list.remove(3)\n\nprint(my_list) #Output - [1, 2, 4, 5, 3]\n\n```\n\n In the above example, the **list\\.remove** method is used to remove the first occurrence of the value 3 in the list my\\_list. \n After the removal, the list my\\_list becomes **\\[1, 2, 4, 5, 3\\]**. Note that only the first occurrence of the value 3 is removed, \n and the second occurrence remains in the list.\n \n\n###  Example for list.remove\\(\\) ValueError\n\n```python\nmy_list = [1, 2, 3, 4, 5]\n\nmy_list.remove(6)\n\n```\n \n The above lines will through the following error:\n```none\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nValueError: list.remove(x): x not in list\n\n```\n"
           }
         ]
       },
